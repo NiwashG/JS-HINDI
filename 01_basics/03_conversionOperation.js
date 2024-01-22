@@ -23,7 +23,7 @@
 //let isLoggedIn=""//output as false
 //let isLoggedIn=" "//output as true
 //let isLoggedIn="NIWASH"//output as true
-let booleanIsLoggedIn=Boolean(isLoggedIn)
+//let booleanIsLoggedIn=Boolean(isLoggedIn)
 //console.log(booleanIsLoggedIn);
 
 //1=>true; 0 => false
@@ -34,4 +34,8 @@ let booleanIsLoggedIn=Boolean(isLoggedIn)
 
 let someNumber=34
 let stringNumber=String(someNumber)
+
 console.log(stringNumber)
+console.log(typeof stringNumber);
+
+
