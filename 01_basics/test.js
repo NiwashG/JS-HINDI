@@ -1,1 +1,1 @@
-console.log("niwash")
+console.log("NIWASH")
