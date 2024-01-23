@@ -9,7 +9,7 @@ let userEmail;
 
 const id=Symbol('1234')
 const anotherId=Symbol('1234')
-console.log(id===anotherId)
+//console.log(id===anotherId)
 
 //const bigNumber=122344556343545767677n
 
@@ -30,12 +30,33 @@ let myObj= {
 
 const myFunction = function()
 {
-    console.log("Hello World")
+   // console.log("Hello World")
 }
 // console.log(typeof bigNumber)//undefined return
 // console.log(typeof outsidetemp)//object
 // console.log(typeof scoreValue)//number
 //console.log(typeof Object)//function
-console.log(typeof myFunction)// function
-console.log(typeof heros)// object
-console.log(typeof anotherId)//symbol
+// console.log(typeof myFunction)// function
+// console.log(typeof heros)// object
+// console.log(typeof anotherId)//symbol
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(Primitive) to give copy of variable,Heap(non -primitive) to give reference of a variable
+
+let myYoutubName="NiwashDocument"
+
+let anotherName=myYoutubName
+anotherName="goldikumar"
+console.log(myYoutubName)
+console.log(anotherName)
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo=userOne
+userTwo.email="niwash@google.com"
+console.log(userOne.email);
+console.log(userTwo.email)
